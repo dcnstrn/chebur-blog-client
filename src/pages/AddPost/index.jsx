@@ -125,7 +125,7 @@ export const AddPost = () => {
       <TextField
         classes={{ root: styles.title }}
         variant="standard"
-        placeholder="Заголовок статьи..."
+        placeholder="Заголовок статьи...."
         value={title}
         onChange={(e) => setTitle(e.target.value)}
         fullWidth
